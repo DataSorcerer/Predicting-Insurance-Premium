@@ -1,6 +1,7 @@
 # Predicting-Insurance-Premium
 Predicting medical insurance premium based on beneficiary's health &amp; lifestyle using regression modelling
 
+<span style="color:blue">**NOTE:**</span> "REPORT_InsurancePrediction.md" file contains the detailed report with code and analysis.   
 
 Health insurance is one of the most marketed products offered by leading insurance firms. The bottom line in this industry is driven by the simple fact that the capital spent by the insurance company in response to beneficiary claims should not exceed customer premium. Higher the difference between settled claims and total premium received, higher are the profits.   
 
