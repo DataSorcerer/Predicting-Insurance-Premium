@@ -7,8 +7,8 @@ Motivation
 Health insurance is one of the most marketed products offered by leading insurance firms. The bottom line in this industry is driven by the simple fact that the capital spent by the insurance company in response to beneficiary claims should not exceed customer premium. Higher the difference between settled claims and total premium received, higher are the profits.
 In order to maximise the profits, wouldn't it be better if the companies accurately calculate the premium charges as soon as the new customer approaches them? However, that would require building predictive models based upon similar profile of existing cutomers. In the following analysis, we try to analyse the correlations between various customer attributes and develop a predictive model that would help the company charge adequete and appropriate premium to the clients. Also, it could help the prospective clients understand the factors that could lower or hike their insurance premium.
 
-1.Loading the dataset
----------------------
+1. Loading the dataset
+----------------------
 
 ``` r
 insurance <- read.csv("insurance.csv", stringsAsFactors = TRUE)
@@ -277,7 +277,7 @@ Following observations can be made from the updated regression model:
 The value of coefficient of determination (R.Sq.) and Adj. RSq. has risen from 76% to 86%. This significant increase is a testimony to improved predictive power of the model. This also means that, unexplained variance is reduced from 24% to just 14% after the improvements.
 **3. Reduction in residual standard error:** Residual standard error has fallen down from 6062 to 4419 (about -27%). This implies lesser difference between actual and predicted values on using the improved model.
 
-The correlation between existing, additional variables and insurance charges is visualised below. As seen in the improved model, smoking, bmi30 and sq.age all seem to be positively correlated with medical expenses
+The correlation between existing, additional variables and insurance charges is visualized below. As seen in the improved model, smoking, bmi30 and sq.age all seem to be positively correlated with medical expenses
 
 ``` r
 insurance %>% mutate(Smoking = ifelse(smoker=="yes", 1, 0)) %>%
@@ -287,12 +287,12 @@ insurance %>% mutate(Smoking = ifelse(smoker=="yes", 1, 0)) %>%
 
 ![](InsurancePrediction_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
-6. Practical insights from the analysis:
-----------------------------------------
+<span style="color:blue"> 6. Practical insights from the analysis</span>
+------------------------------------------------------------------------
 
 Some of the useful practical insights derived from this predictive regression analysis could be:
 1. Smoking alone increases the insurance cost by USD 13400. But, for obese smokers that could result into additional USD 20000. This suggests, smoking and obesity together can be extremely detrimental as far as medical expenses are concerned.
 2. Coefficient for age is statistically significant and indicates positive correlation. This means, it is important to plan for spirally (non-linearly) increasing medical costs as one turns older.
 3. A significant positive correlation has been observed between BMI and medical expenses. So, it is likely that increase in body weight could cause more spending on medical ailments.
 4. Insurance company can factor in interaction between different features like age, BMI, smoking habits in order to predict the insurance premium charges for new customers and adjust those of existing customers.
-5. Finally, the insurance company could use such a predictive model to minimize the losses by under-charging a risk prone individual or maximise the profits by appropriately charging them.
+5. Finally, the insurance company could use such a predictive model to minimize the losses by under-charging a risk prone individual or maximize the profits by appropriately charging them.
