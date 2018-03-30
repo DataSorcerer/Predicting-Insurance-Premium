@@ -1,11 +1,11 @@
-Predicting insurance premium with Regression Modelling
+﻿Predicting insurance premium with Regression Modelling
 ================
 
 Motivation
 ----------
 
-Health insurance is one of the most marketed products offered by leading insurance firms. The bottom line in this industry is driven by the simple fact that the capital spent by the insurance company in response to beneficiary claims should not exceed customer premium. Higher the difference between settled claims and total premium received, higher are the profits.   
-In order to maximise the profits, wouldn't it be better if the companies accurately calculate the premium charges as soon as the new customer approaches them? However, that would require building predictive models based upon similar profile of existing cutomers. In the following analysis, we try to analyse the correlations between various customer attributes and develop a predictive model that would help the company charge adequete and appropriate premium to the clients. Also, it could help the prospective clients understand the factors that could lower or hike their insurance premium.
+   Health insurance is one of the most marketed products offered by leading insurance firms. The bottom line in this industry is driven by the simple fact that the capital spent by the insurance company in response to beneficiary claims should not exceed customer premium. Higher the difference between settled claims and total premium received, higher are the profits.   
+   In order to maximise the profits, wouldn't it be better if the companies accurately calculate the premium charges as soon as the new customer approaches them? However, that would require building predictive models based upon similar profile of existing cutomers. In the following analysis, we try to analyse the correlations between various customer attributes and develop a predictive model that would help the company charge adequete and appropriate premium to the clients. Also, it could help the prospective clients understand the factors that could lower or hike their insurance premium.
 
 ## 1. Loading the dataset
 ----------------------
