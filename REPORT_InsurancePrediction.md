@@ -271,11 +271,12 @@ summary(insurance_model_updated)
 
 ### 5.4. Observations from the updated model
 
-Following observations can be made from the updated regression model:
-**1. Additional variables/ interactions are significant:** An extremely low p-value corresponding to newly included variables like bmi30, Sq. age, interaction between smoking and obesity, indicate that these variables are statistically significant and more likely to affect the insurance charges.
+Following observations can be made from the updated regression model:   
+
+**1. Additional variables/ interactions are significant:** An extremely low p-value corresponding to newly included variables like bmi30, Sq. age, interaction between smoking and obesity, indicate that these variables are statistically significant and more likely to affect the insurance charges.   
 **2. Improved model predictive power: **
-The value of coefficient of determination (R.Sq.) and Adj. RSq. has risen from 76% to 86%. This significant increase is a testimony to improved predictive power of the model. This also means that, unexplained variance is reduced from 24% to just 14% after the improvements.
-**3. Reduction in residual standard error:** Residual standard error has fallen down from 6062 to 4419 (about -27%). This implies lesser difference between actual and predicted values on using the improved model.
+The value of coefficient of determination (R.Sq.) and Adj. RSq. has risen from 76% to 86%. This significant increase is a testimony to improved predictive power of the model. This also means that, unexplained variance is reduced from 24% to just 14% after the improvements.    
+**3. Reduction in residual standard error:** Residual standard error has fallen down from 6062 to 4419 (about -27%). This implies lesser difference between actual and predicted values on using the improved model.    
 
 The correlation between existing, additional variables and insurance charges is visualized below. As seen in the improved model, smoking, bmi30 and sq.age all seem to be positively correlated with medical expenses
 
