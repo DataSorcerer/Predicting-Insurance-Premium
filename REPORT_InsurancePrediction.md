@@ -285,8 +285,6 @@ insurance %>% mutate(Smoking = ifelse(smoker=="yes", 1, 0)) %>%
   ggcorr(label=TRUE, name="Correlation")
 ```
 
-    ## Warning: package 'bindrcpp' was built under R version 3.4.2
-
 ![](InsurancePrediction_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 6. Practical insights from the analysis:
