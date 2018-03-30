@@ -14,5 +14,13 @@ Prevent the insurer from under-charging a risk prone individual and thus maximiz
 3. **Win-win for both:- Insurer & Beneficiary:**    
 Help the prospective insurance beneficiaries understand the factors that could lower their insurance premium.   
 
+The modelling and analysis is structured as follows:   
+1. Importing the dataset   
+2. Exploratory data analysis (EDA)   
+3. Training the model   
+4. Intrepreting the results   
+5. Improvements in the model   
+6. Summarize practical insights from the analysis   
+
  - "REPORT_InsurancePrediction.md" file has the detailed report with code and analysis
  - The source code folder contains the RMD file with R code for building and evaluating the regression model.   
