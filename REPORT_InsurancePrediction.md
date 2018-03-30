@@ -200,16 +200,17 @@ The values of coefficients are tested against hypothesis that their slopes are m
 
 ### 4.3. Coefficient of determination
 
-The R.Sq. (coefficient of determination) value lies between \[0, 1\] with values nearer to 1 the better. Multiple R.Sq. = 0.75 implies that model explains about 75% of the variance in predicted values. In other words, only 25% of the variance in predicted values is unexplained which indicates high efficiency of the model to predict insurance prices. Adj. R.Sq. values penalize the additional independent variables and thus are a better indicator than R.Sq. alone. This value of 0.75 represents that model is significant enough to make good prediction of charges given these explanatory variables.
+The R.Sq. (coefficient of determination) value lies between \[0, 1\] with values nearer to 1 the better. Multiple R.Sq. = 0.75 implies that model explains about 75% of the variance in predicted values. In other words, only 25% of the variance in predicted values is unexplained which indicates high efficiency of the model to predict insurance prices. Adj. R.Sq. values penalize the additional independent variables and thus are a better indicator than R.Sq. alone. This value of 0.75 represents that model is significant enough to make good prediction of charges given these explanatory variables.   
 
-5. Improving the regression model:
+## 5. Improving the regression model:
 ----------------------------------
 
 The regression model developed till now assumed only linear relationship between the variable. However, in real world, scenario can be quite complicated. We need to factor in these complications and bring about subtle modifications in the model.
 
 ### 5.1. Non-linear relation between age and medical insurance charges:
 
-Based on the insurance domain knowledge, we know that medical insurance charges tend to increase disproportionately with age. Thus, instead of a linear relationship, we consider a higher order relationship with age.
+Based on the insurance domain knowledge, we know that medical insurance charges tend to increase disproportionately with age. Thus, instead of a linear relationship, we consider a higher order relationship with age.   
+
 *C**h**a**r**g**e**s* = *β*<sub>0</sub> + *β*<sub>1</sub>*A**g**e* + *β*<sub>2</sub>*A**g**e*<sup>2</sup>
  This implies, model needs to factor in additional coefficient
 *β*<sub>2</sub>
