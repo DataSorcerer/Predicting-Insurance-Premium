@@ -211,8 +211,9 @@ The regression model developed till now assumed only linear relationship between
 
 Based on the insurance domain knowledge, we know that medical insurance charges tend to increase disproportionately with age. Thus, instead of a linear relationship, we consider a higher order relationship with age.   
 
-*C**h**a**r**g**e**s* = *β*<sub>0</sub> + *β*<sub>1</sub>*A**g**e* + *β*<sub>2</sub>*A**g**e*<sup>2</sup>
- This implies, model needs to factor in additional coefficient
+*C**h**a**r**g**e**s* = *β*<sub>0</sub> + *β*<sub>1</sub>*A**g**e* + *β*<sub>2</sub>*A**g**e*<sup>2</sup>   
+
+This implies, model needs to factor in additional coefficient
 *β*<sub>2</sub>
 . Hence, we include an additional feature based on sqaure of age as follows,
 
