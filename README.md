@@ -1,7 +1,7 @@
 # Predicting-Insurance-Premium
 Predicting medical insurance premium based on beneficiary's health &amp; lifestyle using regression modelling
 
-<span style="color:blue">**NOTE:**</span> "REPORT_InsurancePrediction.md" file contains the detailed report with code and analysis.   
+[Click here to check out the comprehensive analysis and report (REPORT_InsurancePrediction.md)](https://github.com/DataSorcerer/Predicting-Insurance-Premium/blob/master/REPORT_InsurancePrediction.md)  
 
 Health insurance is one of the most marketed products offered by leading insurance firms. The bottom line in this industry is driven by the simple fact that the capital spent by the insurance company in response to beneficiary claims should not exceed customer premium. Higher the difference between settled claims and total premium received, higher are the profits.   
 
@@ -16,7 +16,7 @@ Help the prospective insurance beneficiaries understand the factors that could l
 
 The modelling and analysis is structured as follows:   
 1. Importing the dataset   
-2. Exploratory data analysis (EDA)   
+2. Exploratory data analysis (EDA)/ **Statistical Modelling**  
 3. Training the model   
 4. Intrepreting the results   
 5. Improvements in the model   
